@@ -8,98 +8,150 @@
     <link rel="icon" type="image/x-icon" href="img/icon.webp">
 </head>
 <body>
-    <h1>Over Mij</h1>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <h1>Nick Esselman</h1>
+        </div>
+        <div class="header-right">
+            <!-- Language Toggle -->
+            <button id="language-toggle">NL/EN</button>
+            <!-- Dark Mode Toggle -->
+            <button id="dark-mode-toggle">🌞</button> <!-- Placeholder icon -->
+            <!-- Navigation Buttons -->
+            <button onclick="location.href='page1.html'">Page 1</button>
+            <button onclick="location.href='page2.html'">Page 2</button>
+        </div>
+    </header>
+
+    <div class="bigboytext">
+        <h1>Over Mij</h1>
+    </div>
     <hr class="solid">
-        <div class="container">
-            <!-- First Section -->
-            <div class="content">
-                <img src="img/profilepic.webp" alt="foto van Nick">
-                <div class="text-content">
-                    <h2>Nick Esselman</h2>
-                    <h4>Ik ben 16 jaar oud en woon in Spaarndam</h4>
-                </div>
-            </div>
-            <hr class="solid">
-            <!-- Second Section -->
-            <div class="content-reverse">
-                <div class="text-content">
-                    <h2>Mijn woonplaats</h2>
-                    <h4>Ik woon in een klein huisje aan de Mooie Nel, 
-                        samen met mijn broer, zus en moeder. <br/>
-                        We wonen in het dorpje Spaarndam.
-                        Ik ga graag kanoën op dit prachtige meer.
-                    </h4>
-                </div>
-                <div class="small-images">
-                    <img src="img/homefront.webp" alt="Small Image 1">
-                    <figcaption class="center">
-                        mijn huis
-                    </figcaption>
-                    <img src="img/homeview.webp" alt="Small Image 2">
-                    <figcaption class="center">
-                        uitzicht
-                    </figcaption>
-                </div>
-            </div>
-            <hr class="solid">
-            
-            <!-- Tirth Section -->
-            <div class="content">
-                <figcaption class="center">
-                    <img src="img/printer.webp" alt="foto van Nick">
-                    mijn ender3 v2
-                </figcaption>
-                <div class="text-content">
-                    <h2>Hobby’s</h2>
-                    <h4>3D modeleren en 3D printen zijn mijn grootste hobby’s.
-                        graag maak ik zelf modellen op me laptop en maak ik ze daarna een realiteit.
-                        Dit doe ik met Pla en PETG</h4>
-                </div>
-            </div>
-            <hr class="solid">
-
-            <!-- Forth Section -->
-            <div class="content-reverse">
-                <div class="text-content">
-                    <h2>Wat kan ik al</h2>
-                    <h4>
-                        Ik doe al 6 jaar, sinds 2018 aan programmeren in game engines zoals Unity met C# en Godot. <br/>
-                        Dit heb ik allemaal mezelf geleerd met proberen en falen.<br/><br/>
-                        Ik heb vooral veel projecten begonnen en weinig afgemaakt.
-                        een paar van deze projecten zijn te spelen in je browser op itch.io<br/><br/>
-                        <a href="https://nikkcc.itch.io/">https://nikkcc.itch.io/</a>
-                    </h4>
-                </div>
-                <div class="small-images">
-                    <img src="img/ms.webp" alt="Small Image 1">
-                    <figcaption class="center">
-                        Eerste game
-                    </figcaption>
-                    <img src="img/ui.webp" alt="Small Image 2">
-                    <figcaption class="center">
-                        zelf host ui voor printer
-                    </figcaption>
-                </div>
-            </div>
-            <hr class="solid">
-
-            <!-- Final Section -->
-            <div class="final-section">
-                <h2>Mijn top 10 Projecten</h2>
-                <ul>
-                    <li>1. Eigen telescoop gemaakt</li>
-                    <li>2. Game voor game jam</li>
-                    <li>3. UI voor 3D printer aansturen</li>
-                    <li>4. Sterken deurklippen gemodelleerd en geprint</li>
-                    <li>5. Alle modellen die ik heb geüpload naar Printables</li>
-                    <li>6. Eigen database gemaakt</li>
-                    <li>7. App voor home control thuis</li>
-                    <li>8. Smart surround sound room geprogrammeerd</li>
-                    <li>9. Minecraft server</li>
-                    <li>10. Mee aan een game jam gedaan met team</li>
-                </ul>
+    <div class="container">
+        <!-- First Section -->
+        <div class="content">
+            <img src="img/profilepic.webp" alt="foto van Nick">
+            <div class="text-content">
+                <h1>Nick Esselman</h1>
+                <h2>Ik ben 16 jaar oud en woon in Spaarndam</h2>
             </div>
         </div>
+        <hr class="solid">
+        <!-- Second Section -->
+        <div class="content-reverse">
+            <div class="text-content">
+                <h2>Mijn woonplaats</h2>
+                <h4>Ik woon in een klein huisje aan de Mooie Nel, 
+                    samen met mijn broer, zus en moeder. <br/>
+                    We wonen in het dorpje Spaarndam.
+                    Ik ga graag kanoën op dit prachtige meer.
+                </h4>
+            </div>
+            <div class="small-images">
+                <img src="img/homefront.webp" alt="Small Image 1">
+                <figcaption class="center">
+                    <h4>mijn huis</h4>
+                </figcaption>
+                <img src="img/homeview.webp" alt="Small Image 2">
+                <figcaption class="center">
+                    <h4>uitzicht</h4>
+                </figcaption>
+            </div>
+        </div>
+        <hr class="solid">
+        
+        <!-- Tirth Section -->
+        <div class="content">
+            <figcaption class="center">
+                <img src="img/printer.webp" alt="foto van Nick">
+                <h4>mijn ender3 v2</h4>
+            </figcaption>
+            <div class="text-content">
+                <h2>Hobby’s</h2>
+                <h4>3D modeleren en 3D printen zijn mijn grootste hobby’s.
+                    graag maak ik zelf modellen op me laptop en maak ik ze daarna een realiteit.
+                    Dit doe ik met Pla en PETG</h4>
+            </div>
+        </div>
+        <hr class="solid">
+
+        <!-- Forth Section -->
+        <div class="content-reverse">
+            <div class="text-content">
+                <h2>Wat kan ik al</h2>
+                <h4>
+                    Ik doe al 6 jaar, sinds 2018 aan programmeren in game engines zoals Unity met C# en Godot. <br/>
+                    Dit heb ik allemaal mezelf geleerd met proberen en falen.<br/><br/>
+                    Ik heb vooral veel projecten begonnen en weinig afgemaakt.
+                    een paar van deze projecten zijn te spelen in je browser op itch.io<br/><br/>
+                    <a href="https://nikkcc.itch.io/">https://nikkcc.itch.io/</a>
+                </h4>
+            </div>
+            <div class="small-images">
+                <img src="img/ms.webp" alt="Small Image 1">
+                <figcaption class="center">
+                    <h4>Eerste game</h4>
+                </figcaption>
+                <img src="img/ui.webp" alt="Small Image 2">
+                <figcaption class="center">
+                    <h4>zelf host ui voor printer</h4>
+                </figcaption>
+            </div>
+        </div>
+        <hr class="solid">
+
+        <!-- Final Section -->
+        <div class="final-section">
+            <h2>Mijn top 10 Projecten</h2>
+            <ul>
+                <li><h4>1. Eigen telescoop gemaakt</h4></li>
+                <li><h4>2. Game voor game jam</h4></li>
+                <li><h4>3. UI voor 3D printer aansturen</h4></li>
+                <li><h4>4. Sterken deurklippen gemodelleerd en geprint</h4></li>
+                <li><h4>5. Alle modellen die ik heb geüpload naar Printables</h4></li>
+                <li><h4>6. Eigen database gemaakt</h4></li>
+                <li><h4>7. App voor home control thuis</h4></li>
+                <li><h4>8. Smart surround sound room geprogrammeerd</h4></li>
+                <li><h4>9. Minecraft server</h4></li>
+                <li><h4>10. Mee aan een game jam gedaan met team</h4></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nick Esselman | <span id="current-date"></span> | <a href="mailto:Nick.esselman@gmail.com">Nick.esselman@gmail.com</a></p>
+    </footer>
+
+    <!-- Optional JavaScript for dynamic date and toggle functionality -->
+    <script>
+        // Display the current date in the footer
+        const dateElement = document.getElementById("current-date");
+        const currentDate = new Date().toLocaleDateString();
+        dateElement.textContent = currentDate;
+
+        // Dark Mode Toggle (Simple)
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            // Toggle icon (assuming '🌞' for light and '🌚' for dark mode)
+            darkModeToggle.textContent = document.body.classList.contains('dark-mode') ? '🌚' : '🌞';
+        });
+
+        // Language Toggle (Basic functionality)
+        const languageToggle = document.getElementById('language-toggle');
+        languageToggle.addEventListener('click', () => {
+            if (document.documentElement.lang === 'nl') {
+                document.documentElement.lang = 'en';
+                languageToggle.textContent = 'EN/NL';
+            } else {
+                document.documentElement.lang = 'nl';
+                languageToggle.textContent = 'NL/EN';
+            }
+        });
+    </script>
 </body>
 </html>
 
