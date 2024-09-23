@@ -1,0 +1,133 @@
+/* Import the Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the Roboto font to the entire page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 40%;
+    min-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+
+.solid {
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 130px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.text-content {
+    max-width: 500px;
+    margin-top: 4rem;
+    margin-bottom: auto;
+}
+
+.text-content p {
+    line-height: 1.6;
+}
+
+.text-content p:first-child {
+    font-weight: bold;
+}
+
+.text-content small {
+    color: gray;
+}
+
+.small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Spacer class for custom spacing */
+.spacer {
+    height: 20px; /* Adjust this value for vertical space */
+    width: 20px;  /* Adjust this value for horizontal space */
+}
+
+/* Second section styles */
+.content-reverse {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-reverse img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Final section styles */
+.final-section {
+    text-align: center;
+    margin-top: 50px;
+}
+.final-section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.final-section ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif; /* Also apply Roboto to list items */
+}
+.final-section ul li {
+    font-family: 'Roboto', sans-serif; /* Also apply Roboto to list items */
+}
