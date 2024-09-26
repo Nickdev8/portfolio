@@ -28,8 +28,8 @@ body {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 h1, h2, h4 {
@@ -126,6 +126,14 @@ h1, h2, h4 {
     height: auto;
     margin-left: 20px;
     border-radius: 8px;
+}
+
+.selected {
+    color: red;
+}
+
+.center{
+    text-align: center;
 }
 
 .small-images {

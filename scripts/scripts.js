@@ -29,7 +29,14 @@ const translations = {
         text3: "Ik doe al 6 jaar, sinds 2018 aan programmeren in game engines zoals Unity met C# en Godot. \n Dit heb ik allemaal mezelf geleerd met proberen en falen.\n\n Ik heb vooral veel projecten begonnen en weinig afgemaakt. een paar van deze projecten zijn te spelen in je browser op itch.io\n\n",
         img3: "Eerste game",
         img4: "Zelf host ui voor printer",
-        img5: "Mijn ender3 v2"
+        img5: "Mijn ender3 v2",
+
+        
+        mywork: "Mijn Werk",
+        socials: "Socials",
+
+        headtitle2: "Mijn werk",
+        headtitle3: "Socials",
     },
     en: {
         name: "Nick Esselman",
@@ -60,7 +67,13 @@ const translations = {
         text3: "I have been programming for 6 years, since 2018, in game engines like Unity with C# and Godot. \n I learned all of this by trying and failing.\n\n I have started many projects but finished few. A few of these projects can be played in your browser on itch.io\n\n",
         img3: "First game",
         img4: "Self-hosted UI for printer",
-        img5: "My ender3 v2"
+        img5: "My ender3 v2",
+
+        mywork: "My Work",
+        socials: "Socials",
+
+        headtitle2: "My Work",
+        headtitle3: "Socials",
     }
 };
 
