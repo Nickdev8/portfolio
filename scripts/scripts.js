@@ -103,7 +103,7 @@ function changeLanguage(language) {
 // Initialize with the default language (Dutch)
 let currentLanguage = 'nl';
 changeLanguage(currentLanguage);
-document.body.classList.add('dark-mode'); // Set default to dark mode
+document.body.classList.add('dark-mode'); 
 
 // Language Toggle
 const languageToggle = document.getElementById('language-toggle');
@@ -117,7 +117,6 @@ languageToggle.addEventListener('click', () => {
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 darkModeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
-    // Toggle icon (assuming '🌞' for light and '🌚' for dark mode)
     darkModeToggle.textContent = document.body.classList.contains('dark-mode') ? 'Dark/Light' : 'Light/Dark';
 });
 
