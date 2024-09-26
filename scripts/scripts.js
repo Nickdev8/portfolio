@@ -34,9 +34,15 @@ const translations = {
         
         mywork: "Mijn Werk",
         socials: "Socials",
+        main: "Start",
 
         headtitle2: "Mijn werk",
+        titlemw: "Uitleg",
+        textmw: "Dit zijn 4 spellen die ik heb gemaakt, waarvan een paar samen in een team en paar alleen",
+        
         headtitle3: "Socials",
+        titleso: "Mijn",
+        titlescso: "School"
     },
     en: {
         name: "Nick Esselman",
@@ -71,9 +77,15 @@ const translations = {
 
         mywork: "My Work",
         socials: "Socials",
+        main: "Main",
 
         headtitle2: "My Work",
+        titlemw: "Explanation",
+        textmw: "these are 4 games that i made, Some are with a team and some alone",
+
         headtitle3: "Socials",
+        titleso: "My",
+        titlescso: "School"
     }
 };
 
@@ -108,6 +120,7 @@ darkModeToggle.addEventListener('click', () => {
     // Toggle icon (assuming '🌞' for light and '🌚' for dark mode)
     darkModeToggle.textContent = document.body.classList.contains('dark-mode') ? 'Dark/Light' : 'Light/Dark';
 });
+
 
 // Display the current date in the footer
 const dateElement = document.getElementById("current-date");

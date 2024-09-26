@@ -1,7 +1,7 @@
 /* Import the Roboto font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,12 +11,12 @@ body {
     margin: 0;
     padding: 0;
     max-width: 60%;
-    min-width: 50em;
+    min-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.bigboytext{
+.bigboytext {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -32,7 +32,9 @@ body {
     padding-right: 70px;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -48,7 +50,7 @@ h1, h2, h4 {
 .solid {
     border: 1px solid black;
     margin: 0;
-    
+
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -108,8 +110,10 @@ h1, h2, h4 {
 
 /* Spacer class for custom spacing */
 .spacer {
-    height: 20px; /* Adjust this value for vertical space */
-    width: 20px;  /* Adjust this value for horizontal space */
+    height: 20px;
+    /* Adjust this value for vertical space */
+    width: 20px;
+    /* Adjust this value for horizontal space */
 }
 
 /* Second section styles */
@@ -128,11 +132,8 @@ h1, h2, h4 {
     border-radius: 8px;
 }
 
-.selected {
-    color: red;
-}
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -153,18 +154,23 @@ h1, h2, h4 {
     text-align: center;
     margin-top: 50px;
 }
+
 .final-section h2 {
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .final-section ul {
     list-style-type: none;
     padding: 0;
     line-height: 1.8;
-    font-family: 'Roboto', sans-serif; /* Also apply Roboto to list items */
+    font-family: 'Roboto', sans-serif;
+    /* Also apply Roboto to list items */
 }
+
 .final-section ul li {
-    font-family: 'Roboto', sans-serif; /* Also apply Roboto to list items */
+    font-family: 'Roboto', sans-serif;
+    /* Also apply Roboto to list items */
 }
 
 /* Header styling */
@@ -218,9 +224,12 @@ h1, h2, h4 {
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); }
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
 
 
 /* Dark Mode styling */
@@ -229,7 +238,8 @@ h1, h2, h4 {
     color: white;
 }
 
-.dark-mode .header, .dark-mode .footer {
+.dark-mode .header,
+.dark-mode .footer {
     background-color: #222;
     border-color: #555;
 }
@@ -243,28 +253,29 @@ h1, h2, h4 {
 }
 
 
-.dark-mode h4, 
-.dark-mode h2, 
-.dark-mode h1{
+.dark-mode h4,
+.dark-mode h2,
+.dark-mode h1 {
     color: white;
 }
 
-.dark-mode .white{
+.dark-mode .white {
     color: white;
 }
 
-.whiteurl{
+.whiteurl {
     color: black;
 }
-.dark-mode .whiteurl{
+
+.dark-mode .whiteurl {
     color: white;
 }
 
 .dark-mode .text-content {
-background-color: #555;
+    background-color: #555;
 }
 
-.dark-mode .bigboytext{
+.dark-mode .bigboytext {
     background-color: #444;
 }
 
@@ -273,6 +284,69 @@ background-color: #555;
 }
 
 .dark-mode .solidtop,
-.dark-mode .solid{
+.dark-mode .solid {
     border: 1px solid white;
+}
+
+.header-right>.selected {
+    background-color: rebeccapurple;
+}
+
+.dark-mode .header-right>.selected {
+    background-color: rebeccapurple;
+}
+
+@media screen and (max-width:1900px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+}
+
+@media screen and (max-width:1800px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    body {
+        max-width: 70%;
+        margin: auto 0ZZ;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    body {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    body {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    #g1,
+    #g2,
+    #g3,
+    #g4 {
+        width: 208px;
+        min-width: 0px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        min-width: 600px;
+    }
 }
