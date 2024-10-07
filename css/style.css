@@ -110,21 +110,6 @@ h4 {
     color: gray;
 }
 
-.small-images {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.small-images img {
-    width: 100px;
-    height: auto;
-    border-radius: 4px;
-}
-
-.center {
-    text-align: center;
-}
 
 /* Spacer class for custom spacing */
 .spacer {
@@ -137,7 +122,6 @@ h4 {
 /* Second section styles */
 .content-reverse {
     display: flex;
-    align-items: center;
     margin-top: 20px;
     justify-content: space-around;
     padding-left: 10%;
@@ -332,7 +316,7 @@ h4 {
 
     body {
         max-width: 70%;
-        margin: auto 0ZZ;
+        margin: auto 0;
     }
 }
 
@@ -355,7 +339,6 @@ h4 {
 }
 
 @media screen and (max-width:1050px) {
-
     #g1,
     #g2,
     #g3,
